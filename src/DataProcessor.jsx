@@ -182,8 +182,8 @@ const DataProcessor = () => {
               </span>
           ) : (
             <span className="error">
-            {index + 1}. Error -{' '}
-            {result.response.message || 'Unknown error'}
+                  {index + 1}. Error -{' '}
+                  {result.response.message || 'API call failed'}
           </span>
             )}
           </li>
