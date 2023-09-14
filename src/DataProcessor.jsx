@@ -94,6 +94,7 @@ const DataProcessor = () => {
             postDate: trimmedRowData[6] || undefined,
             topicType: trimmedRowData[7] || undefined,
             alertType: trimmedRowData[8] || undefined,
+            callToActionType: trimmedRowData[12] || undefined,
           };
   
           if (trimmedRowData[9] || trimmedRowData[10] || trimmedRowData[11]) {
